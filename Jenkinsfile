@@ -23,7 +23,7 @@ pipeline {
         stage('Run New Container') {
             steps {
                 script {
-                    docker run -d --name 2322 2322
+                    docker.run('-d --name 2322 2322')
                 }
             }
         }
