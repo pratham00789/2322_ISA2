@@ -23,7 +23,7 @@ pipeline {
         stage('Run New Container') {
             steps {
                 script {
-                    docker run -d --name <roll_no> <roll_no>
+                    docker run -d --name 2322 2322
                 }
             }
         }
