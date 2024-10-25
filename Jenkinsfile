@@ -9,14 +9,14 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    docker.build('<roll_no>')
+                    docker.build('2322')
                 }
             }
         }
         stage('Remove Existing Container') {
             steps {
                 script {
-                    sh 'docker rm -f <roll_no> || true'
+                    sh 'docker rm -f 2322 || true'
                 }
             }
         }
