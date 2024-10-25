@@ -5,7 +5,7 @@ pipeline {
         stage('Build Docker Image') {  
             steps {  
                 script {  
-                    dockerImage = docker.build("prathamk02/2322_ISA2")  
+                    dockerImage = docker.build("prathamk02/2322_isa2")  
                 }  
             }  
         }  
